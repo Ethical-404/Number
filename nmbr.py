@@ -83,13 +83,13 @@ def menu():
 	print "\033[1;92mCYBER_HACKER_GLAXY_R.H.P_1.286-Wellcome"
 	print
         print "\033[1;91mATTACK ON PAKISTAN NETWORKS"
-	print "\033[1;92m[1]  MOBILINK"
-	print "\033[1;92m[2]  TELINOR"
-	print "\033[1;92m[3]  WARID"
-	print "\033[1;92m[4]  UFONE"
-	print "\033[1;92m[5]  ZONG"
-	print "\033[1;92m[6]  UPDATE SYSTEM"
-	print "\033[1;92m[0]  EXIT_KALTI MAR"	    
+	print "\033[1;91m[1]  MOBILINK"
+	print "\033[1;93m[2]  TELINOR"
+	print "\033[1;95m[3]  WARID"
+	print "\033[1;97m[4]  UFONE"
+	print "\033[1;99m[5]  ZONG"
+	print "\033[1;28m[6]  UPDATE SYSTEM"
+	print "\033[1;29m[0]  EXIT_KALTI MAR"	    
 	print 50*'-'
 	action()
 	
@@ -138,7 +138,7 @@ def action():
 		print "\033[1;95m24, ??, ??, ??,"
 		try:
 			c = raw_input(" SELECTED CODE: ")
-			k="+923"
+			k="+03"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -154,7 +154,7 @@ def action():
 		print "\033[1;95m35, 36, 37, ??,"
 		try:
 			c = raw_input(" SELECTED CODE: ")
-			k="+923"
+			k="+03"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -170,7 +170,7 @@ def action():
 		print "\033[1;95m14, 15, 16, 17,"
 		try:
 			c = raw_input(" SELECTED CODE: ")
-			k="+923"
+			k="+03"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
