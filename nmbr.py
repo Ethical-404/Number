@@ -87,9 +87,9 @@ def menu():
 	print "\033[1;93m[2]  TELINOR"
 	print "\033[1;95m[3]  WARID"
 	print "\033[1;97m[4]  UFONE"
-	print "\033[1;99m[5]  ZONG"
-	print "\033[1;28m[6]  UPDATE SYSTEM"
-	print "\033[1;29m[0]  EXIT_KALTI MAR"	    
+	print "\033[1;92m[5]  ZONG"
+	print "\033[1;90m[6]  UPDATE SYSTEM"
+	print "\033[1;98m[0]  EXIT_KALTI MAR"	    
 	print 50*'-'
 	action()
 	
